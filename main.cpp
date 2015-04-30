@@ -107,10 +107,11 @@ int main ()
     else
         cout<<"La respuesta correcta era 'a'"<<endl<<endl<<endl;
 
-	cout<<"El puntaje por sus "<< cantCorrectas <<" preguntas correctas es: " <<endl;
-	cout<< (cantCorrectas*10)<<endl;
+	cout<<"El puntaje por sus "<< cantCorrectas <<" preguntas correctas es: ";
+	cout<< (cantCorrectas*10)<<"."<<endl;
 
-	cin.get();
+	system("pause");
+
 
 	return 0;
 
